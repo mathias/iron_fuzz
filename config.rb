@@ -2,7 +2,7 @@
 
 # Set this to the root of your project when deployed:
 http_path = "gh-pages"
-css_dir = "gh-pages/stylesheets"
+css_dir = "gh-pages/css"
 sass_dir = "site/assets/stylesheets"
 images_dir = "site/assets/images"
 javascripts_dir = "site/assets/javascripts"
