@@ -57,7 +57,19 @@ a img {
   border: none;
 }
 
-/* line 19, ../../site/assets/stylesheets/screen.scss */
+/* line 2, ../../site/assets/stylesheets/partials/_header.scss */
+header h1 {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('/images/logo.png?1359834825');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 950px;
+  height: 150px;
+}
+
+/* line 20, ../../site/assets/stylesheets/screen.scss */
 body {
   line-height: 1.5;
   font-family: "Roboto", "Helvetica", Arial, Helvetica, sans-serif;
@@ -492,14 +504,14 @@ form form.inline p {
   margin-bottom: 0;
 }
 
-/* line 36, ../../site/assets/stylesheets/screen.scss */
+/* line 37, ../../site/assets/stylesheets/screen.scss */
 body #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 40, ../../site/assets/stylesheets/screen.scss */
+/* line 41, ../../site/assets/stylesheets/screen.scss */
 body header, body footer, body section#content {
   display: inline;
   float: left;
