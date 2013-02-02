@@ -1,5 +1,5 @@
 header {
   h1 {
-    @include replace-text('logo.png');
+    @include replace-text-with-dimensions('logo.png');
   }
 }
