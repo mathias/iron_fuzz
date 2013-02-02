@@ -6,6 +6,8 @@ A quick single-serving website for January's Iron Fuzz competition. In the (near
 
 I wanted to go with a look that was somewhere between pixel glitches (like the webcam glitches of my [twitter background](https://twitter.com/mathiasx) and cut-up, taped-up, and sharpied-up aesthetic of zines. I dunno what happened in the middle, but my coworker [@missingdink](https://github.com/missingdink) encouraged me on, and this is the result.
 
+Also, my coworker [@listrophy](https://github.com/listrophy) was talking about building a static site generator at the same time, so I decided to pitch in to that effort to build the static site generator to compile this site.
+
 ## License
 
 [![Creative Commons Attribution-ShareAlike 3.0 Unported License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
