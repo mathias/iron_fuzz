@@ -57,10 +57,10 @@ a img {
   border: none;
 }
 
-/* line 20, ../../site/assets/stylesheets/screen.scss */
+/* line 19, ../../site/assets/stylesheets/screen.scss */
 body {
   line-height: 1.5;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", "Helvetica", Arial, Helvetica, sans-serif;
   color: #333333;
   font-size: 75%;
 }
@@ -492,32 +492,21 @@ form form.inline p {
   margin-bottom: 0;
 }
 
-/* line 37, ../../site/assets/stylesheets/screen.scss */
+/* line 36, ../../site/assets/stylesheets/screen.scss */
 body #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 41, ../../site/assets/stylesheets/screen.scss */
-body #header, body #footer {
+/* line 40, ../../site/assets/stylesheets/screen.scss */
+body header, body footer, body section#content {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 950px;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p374@iron_fuzz/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #header, * html body #footer {
-  overflow-x: hidden;
-}
-/* line 45, ../../site/assets/stylesheets/screen.scss */
-body #content {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 950px;
-}
-/* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p374@iron_fuzz/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body #content {
+* html body header, * html body footer, * html body section#content {
   overflow-x: hidden;
 }
