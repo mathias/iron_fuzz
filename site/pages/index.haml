@@ -6,9 +6,6 @@
 %meta{ :content => "Matt Gauger", :name => "author" }
 %link{ :href => "/css/style.css", :rel => "stylesheet" }
 %header
-  %nav
-    %ul
-      %li= "Menu Item"
 
 %section
   %article
@@ -16,14 +13,26 @@
       %h2 January
       %p
         Posted on
-        %time{ :datetime => "2009-09-04T16:31:24+02:00" }= "September 4th 2009"
+        %time{ :datetime => "" }= ""
         by
-        %a{ :href => "#" }= "Author Name"
+        %a{ :href => "http://mathias.github.com" }= "Matt Gauger"
 
         %article
           %p
-            Content
+            :markdown
+              This is a paragraph.
 
+              This is also a paragraph.
   %footer
     %p
-      Copyright 2012 My Name
+      %a{:href => "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US", :rel => "license"}
+        %img{:alt => "Creative Commons License", :src => "http://i.creativecommons.org/l/by-sa/3.0/88x31.png", :style => "border-width:0"}/
+      %br/
+      %span{:property => "dct:title", "xmlns:dct" => "http://purl.org/dc/terms/"} Iron Fuzz
+      by
+      %a{:href => "http://mathias.github.com", :property => "cc:attributionName", :rel => "cc:attributionURL", "xmlns:cc" => "http://creativecommons.org/ns#"} Matt Gauger
+      is licensed under a
+      = succeed "." do
+        %a{:href => "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US", :rel => "license"} Creative Commons Attribution-ShareAlike 3.0 Unported License
+      %br/
+      All audio works are copyright their creators.
