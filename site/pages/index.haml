@@ -6,35 +6,38 @@
 %meta{ :content => "Matt Gauger", :name => "author" }
 /[if lt IE 8]
   %link{ :href => "/css/ie.css", :rel => "stylesheet", :type => "text/css", :media => "screen, projection" }
-%link{ :href => "/css/style.css", :rel => "stylesheet" }
-%header
+%link{ :href => "/css/screen.css", :rel => "stylesheet" }
+%link{ :href => "http://fonts.googleapis.com/css?family=Roboto:400,700", :rel => "stylesheet", :type => "text/css" }
 
-%section
-  %article
-    %header
-      %h2 January
+#container
+  %header
+
+  %section#content
+    %article
+      %header
+        %h2 January
+        %p
+          Posted on
+          %time{ :datetime => "" }= ""
+          by
+          %a{ :href => "http://mathias.github.com" }= "Matt Gauger"
+
+          %article
+            %p
+              :markdown
+                This is a paragraph.
+
+                This is also a paragraph.
+    %footer
       %p
-        Posted on
-        %time{ :datetime => "" }= ""
+        %a{:href => "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US", :rel => "license"}
+          %img{:alt => "Creative Commons License", :src => "http://i.creativecommons.org/l/by-sa/3.0/88x31.png", :style => "border-width:0"}/
+        %br/
+        %span{:property => "dct:title", "xmlns:dct" => "http://purl.org/dc/terms/"} Iron Fuzz
         by
-        %a{ :href => "http://mathias.github.com" }= "Matt Gauger"
-
-        %article
-          %p
-            :markdown
-              This is a paragraph.
-
-              This is also a paragraph.
-  %footer
-    %p
-      %a{:href => "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US", :rel => "license"}
-        %img{:alt => "Creative Commons License", :src => "http://i.creativecommons.org/l/by-sa/3.0/88x31.png", :style => "border-width:0"}/
-      %br/
-      %span{:property => "dct:title", "xmlns:dct" => "http://purl.org/dc/terms/"} Iron Fuzz
-      by
-      %a{:href => "http://mathias.github.com", :property => "cc:attributionName", :rel => "cc:attributionURL", "xmlns:cc" => "http://creativecommons.org/ns#"} Matt Gauger
-      is licensed under a
-      = succeed "." do
-        %a{:href => "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US", :rel => "license"} Creative Commons Attribution-ShareAlike 3.0 Unported License
-      %br/
-      All audio works are copyright their creators.
+        %a{:href => "http://mathias.github.com", :property => "cc:attributionName", :rel => "cc:attributionURL", "xmlns:cc" => "http://creativecommons.org/ns#"} Matt Gauger
+        is licensed under a
+        = succeed "." do
+          %a{:href => "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US", :rel => "license"} Creative Commons Attribution-ShareAlike 3.0 Unported License
+        %br/
+        All audio works are copyright their creators.

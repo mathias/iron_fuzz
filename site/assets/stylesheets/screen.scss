@@ -10,9 +10,8 @@
 // Import the non-default scaffolding module.
 @import "blueprint/scaffolding";
 
-// To generate css equivalent to the blueprint css but with your
-// configuration applied, uncomment:
-// @include blueprint
+// Project-specific settings:
+@import "partials/typography";
 
 // If you are doing a lot of stylesheet concatenation, it is suggested
 // that you scope your blueprint styles, so that you can better control
@@ -38,11 +37,7 @@ body {
     @include container;
   }
 
-  #header, #footer {
-    @include column($blueprint-grid-columns);
-  }
-
-  #content {
+  header, footer, section#content {
     @include column($blueprint-grid-columns);
   }
 }
