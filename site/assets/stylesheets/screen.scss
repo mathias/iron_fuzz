@@ -10,8 +10,9 @@
 // Import the non-default scaffolding module.
 @import "blueprint/scaffolding";
 
-// Project-specific settings:
+// Project-specific:
 @import "partials/typography";
+@import "partials/header";
 
 // If you are doing a lot of stylesheet concatenation, it is suggested
 // that you scope your blueprint styles, so that you can better control
