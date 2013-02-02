@@ -1,7 +1,10 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "gh-pages"
+http_path = "/"
+http_javascripts_path = http_path + 'javascripts/'
+http_images_path = http_path + 'images/'
+
 css_dir = "gh-pages/css"
 sass_dir = "site/assets/stylesheets"
 images_dir = "site/assets/images"
