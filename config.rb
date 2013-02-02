@@ -1,7 +1,7 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/"
+http_path = "/iron_fuzz/"
 http_javascripts_path = http_path + 'javascripts/'
 http_images_path = http_path + 'images/'
 
