@@ -12,7 +12,7 @@ I wanted to go with a look that was somewhere between pixel glitches (like the w
 
 [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
 
-All content is Creative Commons, except for the music, which is copyright the original artists.
+All content is Creative Commons, except for the music, which is copyright the original artists. See [CONTRIBUTIONS](CONTRIBUTIONS) file for information on this month's artists.
 
 ## Who did this?
 
