@@ -8,6 +8,10 @@ I wanted to go with a look that was somewhere between pixel glitches (like the w
 
 ## License
 
+[![Creative Commons Attribution-ShareAlike 3.0 Unported License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
+
+[Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
+
 All content is Creative Commons, except for the music, which is copyright the original artists.
 
 ## Who did this?
