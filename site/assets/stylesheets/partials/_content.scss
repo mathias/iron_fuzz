@@ -1,2 +1,13 @@
-#album-cover-right {
+#container {
+  background: white;
+
+  img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #summary-image {
+    @include float-right;
+  }
 }

@@ -1,0 +1,8 @@
+footer {
+  @include background(image-url("footer-background.png"));
+  @include column(10);
+  @include prepend(1);
+  @include append(1);
+
+  padding-top: 2em;
+}
