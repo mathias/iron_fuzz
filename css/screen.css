@@ -57,19 +57,56 @@ a img {
   border: none;
 }
 
+/* line 1, ../../site/assets/stylesheets/partials/_branding.scss */
+body {
+  background: url('/images/background.png?1360021547');
+}
+
 /* line 2, ../../site/assets/stylesheets/partials/_header.scss */
 header h1 {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/logo.png?1359834825');
+  background-image: url('/images/logo.png?1360020450');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 950px;
-  height: 150px;
+  height: 227px;
 }
 
-/* line 21, ../../site/assets/stylesheets/screen.scss */
+/* line 1, ../../site/assets/stylesheets/partials/_content.scss */
+#container {
+  background: white;
+}
+/* line 4, ../../site/assets/stylesheets/partials/_content.scss */
+#container img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 10, ../../site/assets/stylesheets/partials/_content.scss */
+#container #summary-image {
+  display: inline;
+  float: right;
+}
+
+/* line 1, ../../site/assets/stylesheets/partials/_footer.scss */
+footer {
+  background: url('/images/footer-background.png?1360024351');
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 790px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 2em;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p374@iron_fuzz/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html footer {
+  overflow-x: hidden;
+}
+
+/* line 23, ../../site/assets/stylesheets/screen.scss */
 body {
   line-height: 1.5;
   font-family: "Roboto", "Helvetica", Arial, Helvetica, sans-serif;
@@ -504,14 +541,14 @@ form form.inline p {
   margin-bottom: 0;
 }
 
-/* line 38, ../../site/assets/stylesheets/screen.scss */
+/* line 40, ../../site/assets/stylesheets/screen.scss */
 body #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 42, ../../site/assets/stylesheets/screen.scss */
+/* line 44, ../../site/assets/stylesheets/screen.scss */
 body > header, body > footer {
   display: inline;
   float: left;
@@ -522,7 +559,7 @@ body > header, body > footer {
 * html body > header, * html body > footer {
   overflow-x: hidden;
 }
-/* line 46, ../../site/assets/stylesheets/screen.scss */
+/* line 48, ../../site/assets/stylesheets/screen.scss */
 body section#content {
   padding-left: 80px;
   display: inline;
