@@ -1,6 +1,6 @@
-source :rubygems
+source "https://rubygems.org"
 
-gem 'ecstatic', path: '..'
+gem 'ecstatic'
 gem 'compass'
 gem 'hpricot'
 gem 'thin'
